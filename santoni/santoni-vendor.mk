@@ -435,7 +435,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/santoni/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/xiaomi/santoni/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/xiaomi/santoni/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
+    vendor/xiaomi/santoni/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
     vendor/xiaomi/santoni/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
+    vendor/xiaomi/santoni/proprietary/etc/permissions/lpa.xml:system/etc/permissions/lpa.xml \
     vendor/xiaomi/santoni/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/xiaomi/santoni/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/xiaomi/santoni/proprietary/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml \
@@ -1018,9 +1020,11 @@ PRODUCT_PACKAGES += \
     libloc_api_v02 \
     QtiTelephonyService \
     SimSettings \
+    embms \
     ims \
     imssettings \
     uceShimService \
+    embmslibrary \
     CNEService \
     com.qualcomm.location \
     dpmserviceapp \
@@ -1034,4 +1038,6 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne \
     qcrilhook \
     qti-telephony-common \
+    uimlpalibrary \
+    uimremotesimlocklibrary \
     qti-vzw-ims-internal
