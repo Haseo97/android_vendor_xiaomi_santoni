@@ -537,6 +537,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/santoni/proprietary/vendor/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon \
     vendor/xiaomi/santoni/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
     vendor/xiaomi/santoni/proprietary/vendor/bin/imsrcsd:system/vendor/bin/imsrcsd \
+    vendor/xiaomi/santoni/proprietary/vendor/bin/ipacm-diag:system/vendor/bin/ipacm-diag \
     vendor/xiaomi/santoni/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/xiaomi/santoni/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
     vendor/xiaomi/santoni/proprietary/vendor/bin/lowi-server:system/vendor/bin/lowi-server \
@@ -760,6 +761,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/santoni/proprietary/vendor/lib/rfsa/adsp/libexternal_dog_skel.so:system/vendor/lib/rfsa/adsp/libexternal_dog_skel.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
+    vendor/xiaomi/santoni/proprietary/vendor/lib/sensor_calibrate.so:system/vendor/lib/sensor_calibrate.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/soundfx/libasphere.so:system/vendor/lib/soundfx/libasphere.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
@@ -777,12 +779,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/santoni/proprietary/vendor/lib/vendor.qti.hardware.qteeconnector@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.qteeconnector@1.0_vendor.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/vendor.qti.hardware.radio.am@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.am@1.0_vendor.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/vendor.qti.hardware.radio.ims@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.ims@1.0_vendor.so \
+    vendor/xiaomi/santoni/proprietary/vendor/lib/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/vendor.qti.hardware.radio.lpa@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.lpa@1.0_vendor.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/vendor.qti.hardware.radio.qcrilhook@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.qcrilhook@1.0_vendor.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/vendor.qti.hardware.radio.qtiradio@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.qtiradio@1.0_vendor.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/vendor.qti.hardware.radio.uim@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.uim@1.0_vendor.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so \
+    vendor/xiaomi/santoni/proprietary/vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so:system/vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so:system/vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so:system/vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so \
@@ -980,6 +984,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/santoni/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
+    vendor/xiaomi/santoni/proprietary/vendor/lib64/sensor_calibrate.so:system/vendor/lib64/sensor_calibrate.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib64/soundfx/libasphere.so:system/vendor/lib64/soundfx/libasphere.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib64/soundfx/libqcbassboost.so:system/vendor/lib64/soundfx/libqcbassboost.so \
@@ -999,12 +1004,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/santoni/proprietary/vendor/lib64/vendor.qti.hardware.radio.am@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.am@1.0_vendor.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.ims@1.0_vendor.so \
+    vendor/xiaomi/santoni/proprietary/vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib64/vendor.qti.hardware.radio.lpa@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.lpa@1.0_vendor.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib64/vendor.qti.hardware.radio.qcrilhook@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.qcrilhook@1.0_vendor.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.qtiradio@1.0_vendor.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.uim@1.0_vendor.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so \
+    vendor/xiaomi/santoni/proprietary/vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so:system/vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so:system/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so:system/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so \
@@ -1040,4 +1047,5 @@ PRODUCT_PACKAGES += \
     qti-telephony-common \
     uimlpalibrary \
     uimremotesimlocklibrary \
+    vendor.qti.hardware.sensorscalibrate-V1.0-java \
     qti-vzw-ims-internal
